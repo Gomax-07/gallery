@@ -79,7 +79,9 @@ WSGI_APPLICATION = 'gallery1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'gallery1',
+        'USER': 'gikmach',
+        'PASSWORD': 'geom1007'
     }
 }
 
